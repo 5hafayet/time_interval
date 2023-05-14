@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Pomodoro Timer",
+  "version": "1.0",
+  "description": "A simple extension for a Pomodoro timer.",
+  "permissions": ["activeTab"],
+  "icons": {
+    "128": "icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Pomodoro Timer"
+  }
+}
